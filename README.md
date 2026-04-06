@@ -1,1 +1,1 @@
-# ACM W-GenAI-Challenge-Team-S2
+# ACM W GenAI Challenge Team S2
