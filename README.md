@@ -22,12 +22,11 @@ acmw-genai-challenge/
 
 ## 🗺️ Challenge Overview
 
-| # | Challenge | Type | Points | Theme | Model |
-|---|---|---|---|---|---|
-| [1](#-challenge-1-image-repair--style-transformation) | Image Repair + Style Transformation | Core Technical | 15 | Multi-stage degradation & reconstruction | U-Net Autoencoder |
-| [2](#-challenge-2-ai-fashion-designer) | AI Fashion Designer | Technical Creative | 20 | *Digital Garden* botanical collection | DCGAN |
-| [3](#-challenge-3-ai-poster-designer) | AI Poster Designer | Core Creative | 20 | *Memory Shop* — a fictional memory economy | Generative AI + Design |
-
+| # | Challenge | Type | Theme | Model |
+|---|---|---|---|---|
+| [1](#-challenge-1-image-repair--style-transformation) | Image Repair + Style Transformation | Core Technical | Multi-stage degradation & reconstruction | U-Net Autoencoder |
+| [2](#-challenge-2-ai-fashion-designer) | AI Fashion Designer | Technical Creative | *Digital Garden* botanical collection | DCGAN |
+| [3](#-challenge-3-ai-poster-designer) | AI Poster Designer | Core Creative | *Memory Shop* — a fictional memory economy | Generative AI + Design |
 ---
 
 ## 🔧 Challenge 1: Image Repair + Style Transformation
@@ -43,6 +42,7 @@ A complete image restoration pipeline built on the **STL-10** dataset. Images ar
 
 **Key deliverables:** Degraded input · Repaired output · 3 stylized images · Executed notebook
 
+![Style Transfer Output](./challenge-1-image-repair/outputs/style_cyberpunk.png) 
 ---
 
 ## 🌿 Challenge 2: AI Fashion Designer
@@ -57,6 +57,7 @@ A generative fashion collection trained on **Fashion-MNIST** (Dress + Coat class
 
 **Key deliverables:** 5 outfit images · Mood board · Latent interpolation strip · Loss plot · Executed notebook
 
+![Digital Garden Mood Board](./challenge-2-fashion-designer/mood_board.jpeg)
 ---
 
 ## 🧠 Challenge 3: AI Poster Designer
@@ -71,6 +72,7 @@ An AI-assisted poster for *Memory Shop* — a fictional storefront in a near-fut
 
 **Key deliverables:** 3 concept images · 1 final poster · `final_poster.png` standalone file · Executed notebook
 
+![Memory Shop Final Poster](./challenge-3-poster/final_poster.png)
 ---
 
 ## 🛠️ Tech Stack
